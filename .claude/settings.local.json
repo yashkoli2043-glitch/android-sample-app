@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(git push:*)",
+      "Bash(./gradlew:*)",
+      "mcp__mobile-mcp__mobile_list_available_devices",
+      "mcp__mobile-mcp__mobile_install_app",
+      "mcp__mobile-mcp__mobile_launch_app",
+      "mcp__mobile-mcp__mobile_take_screenshot",
+      "Bash(adb:*)",
+      "Bash(~/Library/Android/sdk/platform-tools/adb:*)",
+      "Bash(git add:*)",
+      "mcp__mobile-mcp__mobile_click_on_screen_at_coordinates",
+      "mcp__mobile-mcp__mobile_list_elements_on_screen",
+      "Bash(emulator:*)",
+      "mcp__secure-api__crash_details",
+      "mcp__browserstack__runAppLiveSession",
+      "WebSearch",
+      "Read(//tmp/**)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mobile-mcp",
+    "browserstack"
+  ]
+}

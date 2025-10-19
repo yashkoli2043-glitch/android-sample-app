@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "mobile-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mobilenext/mobile-mcp@latest"
+      ]
+    },
+    "browserstack": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@browserstack/mcp-server@latest"
+      ],
+      "env": {
+        "BROWSERSTACK_USERNAME": "",
+        "BROWSERSTACK_ACCESS_KEY": ""
+      }
+    },
+    "luciq": {
+      "url": "https://api.luciq.ai/api/mcp",
+      "headers": {
+        "Email": "",
+        "Token": ""
+      }
+    }
+  }
+}
